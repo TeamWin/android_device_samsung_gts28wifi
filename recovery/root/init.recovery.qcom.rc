@@ -1,0 +1,11 @@
+on init
+    wait /dev/ion
+    wait /dev/qseecom
+
+    chown system system /dev/ion
+    chown system drmrpc /dev/qseecom
+
+    start qseecomd
+
+service qseecomd /sbin/qseecomd
+    disabled
