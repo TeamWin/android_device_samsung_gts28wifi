@@ -1,4 +1,4 @@
 # TWRP tree for gts210vewifi
 
 Kernel source:
-https://github.com/LineageOS/android_kernel_samsung_msm8976/tree/84d7ffb7301f64f87459f714b3897de1833d2890
+https://github.com/luk1337/android_kernel_samsung_msm8976/tree/b24ce11ed14358b3903b4ca1d73f12008a7a783f
