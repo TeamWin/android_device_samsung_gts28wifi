@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := gts210wifi
+PRODUCT_RELEASE_NAME := gts28wifi
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gts210wifi
-PRODUCT_NAME := omni_gts210wifi
+PRODUCT_DEVICE := gts28wifi
+PRODUCT_NAME := omni_gts28wifi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
