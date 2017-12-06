@@ -1,12 +1,12 @@
-## TWRP device tree for Samsung Galaxy Tab S2 9.7 (Wi-Fi)
-## gts210wifi, gts210wifixx
+## TWRP device tree for Samsung Galaxy Tab S2 8.0 (Wi-Fi)
+## gts28wifi, gts28wifixx
 
-Add to `.repo/local_manifests/gts210wifi.xml`:
+Add to `.repo/local_manifests/gts28wifi.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ripee/android_device_samsung_gts210wifi" path="device/samsung/gts210wifi" remote="github" revision="android-7.1" />
+  <project name="ripee/android_device_samsung_gts28wifi" path="device/samsung/gts28wifi" remote="github" revision="android-7.1" />
 </manifest>
 ```
 
@@ -16,7 +16,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_gts210wifi-eng
+lunch omni_gts28wifi-eng
 mka recoveryimage
 ```
 
