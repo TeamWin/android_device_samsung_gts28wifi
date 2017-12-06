@@ -1,2 +1,2 @@
-add_lunch_combo omni_gts210wifi-eng
-add_lunch_combo omni_gts210wifi-userdebug
+add_lunch_combo omni_gts28wifi-eng
+add_lunch_combo omni_gts28wifi-userdebug
