@@ -52,27 +52,12 @@ void init_variant_properties() {
 
     property_get("ro.bootloader", bootloader, NULL);
 
-    if (strstr(bootloader, "N910F")) {
-        property_set("ro.product.model", "SM-N910F");
-        property_set("ro.product.device", "trltexx");
-    } else if (strstr(bootloader, "N910G")) {
-        property_set("ro.product.model", "SM-N910G");
-        property_set("ro.product.device", "trltedt");
-    } else if (strstr(bootloader, "N910R4")) {
-        property_set("ro.product.model", "SM-N910R4");
-        property_set("ro.product.device", "trlteusc");
-    } else if (strstr(bootloader, "N910P")) {
-        property_set("ro.product.model", "SM-N910P");
-        property_set("ro.product.device", "trltespr");
-    } else if (strstr(bootloader, "N910T")) {
-        property_set("ro.product.model", "SM-N910T");
-        property_set("ro.product.device", "trltetmo");
-    } else if (strstr(bootloader, "N910V")) {
-        property_set("ro.product.model", "SM-N910V");
-        property_set("ro.product.device", "trltevzw");
-    } else if (strstr(bootloader, "N910W8")) {
-        property_set("ro.product.model", "SM-N910W8");
-        property_set("ro.product.device", "trltecan");
+    if (strstr(bootloader, "T810")) {
+        property_set("ro.product.model", "SM-T810");
+        property_set("ro.product.device", "gts210wifi");
+    } else if (strstr(bootloader, "T810")) {
+        property_set("ro.product.model", "SM-T810");
+        property_set("ro.product.device", "gts210wifixx");
     } else {
         INFO("%s: unexcepted bootloader id!\n", bootloader, devicename);
     }
