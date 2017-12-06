@@ -52,12 +52,12 @@ void init_variant_properties() {
 
     property_get("ro.bootloader", bootloader, NULL);
 
-    if (strstr(bootloader, "T810")) {
-        property_set("ro.product.model", "SM-T810");
-        property_set("ro.product.device", "gts210wifi");
-    } else if (strstr(bootloader, "T810")) {
-        property_set("ro.product.model", "SM-T810");
-        property_set("ro.product.device", "gts210wifixx");
+    if (strstr(bootloader, "T710")) {
+        property_set("ro.product.model", "SM-T710");
+        property_set("ro.product.device", "gts28wifi");
+    } else if (strstr(bootloader, "T710")) {
+        property_set("ro.product.model", "SM-T710");
+        property_set("ro.product.device", "gts28wifixx");
     } else {
         INFO("%s: unexcepted bootloader id!\n", bootloader, devicename);
     }
