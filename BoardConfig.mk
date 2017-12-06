@@ -1,4 +1,4 @@
-DEVICE_TREE := device/samsung/gts210wifi
+DEVICE_TREE := device/samsung/gts28wifi
 
 CM_PLATFORM_SDK_VERSION := 7	# Required for libf2fs.so
 override TARGET_OUT_VENDOR_SHARED_LIBRARIES = $(TARGET_OUT_SHARED_LIBRARIES)
@@ -71,5 +71,5 @@ TW_INCLUDE_CRYPTO := true
 
 # Init properties from bootloader version, ex. model info
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_gts210wifi
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_TREE)/init/init_gts210wifi.cpp
+TARGET_INIT_VENDOR_LIB := libinit_gts28wifi
+TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_TREE)/init/init_gts28wifi.cpp
