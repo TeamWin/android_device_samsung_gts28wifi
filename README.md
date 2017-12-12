@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Tab S2 8.0 (Wi-Fi)
+## TWRP device tree for Samsung Galaxy Tab S2 8.0 2015 (Wi-Fi)
 ## gts28wifi, gts28wifixx
 
 Add to `.repo/local_manifests/gts28wifi.xml`:
