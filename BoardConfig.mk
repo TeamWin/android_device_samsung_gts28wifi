@@ -60,7 +60,7 @@ TW_MTP_DEVICE := "/dev/mtp_usb"
 TW_EXCLUDE_SUPERSU := true
 
 # Touchscreen correction		
-RECOVERY_TOUCHSCREEN_SWAP_XY := true	
+RECOVERY_TOUCHSCREEN_FLIP_Y := true	
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true
