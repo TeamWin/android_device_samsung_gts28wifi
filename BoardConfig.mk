@@ -59,5 +59,8 @@ TW_NO_EXFAT_FUSE := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
 TW_EXCLUDE_SUPERSU := true
 
+# Touchscreen correction		
+RECOVERY_TOUCHSCREEN_SWAP_XY := true	
+
 # Encryption support
 TW_INCLUDE_CRYPTO := true
